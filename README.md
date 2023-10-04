@@ -6,3 +6,4 @@ To run:
 5. Play around with the DS4 buttons and analogue sticks/triggers. 
 a) The terminal instance running `ds4_values.py` will be printing out debugging info but will send the correct format to the reciever file.
 b) the terminal instance running  `receiver.py` will be printing out the PWM values for either rover movement or arm movement commands in the correct format
+6. if nothing works :( maybe watch demo: https://youtu.be/7xPfzri2iR4
