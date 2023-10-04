@@ -20,7 +20,7 @@ for i in range(pygame.joystick.get_count()):
 for joystick in joysticks:
     joystick.init()
 
-with open(os.path.join("ds4_mapping.json"), 'r+') as file:
+with open(os.path.join("ps4_keys.json"), 'r+') as file:
     button_keys = json.load(file)
 # 0: Left analog horizonal, 1: Left Analog Vertical, 2: Right Analog Horizontal
 # 3: Right Analog Vertical 4: Left Trigger, 5: Right Trigger
